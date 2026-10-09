@@ -1,0 +1,60 @@
+C:\Users\Admin\PycharmProjects\pythonProject3\.venv\Scripts\python.exe C:\Users\Admin\PycharmProjects\pythonProject3\Task4.py 
+==================================================
+NETFLIX TREND ANALYSIS BY RELEASE YEAR
+==================================================
+
+Dataset shape: (8790, 10)
+
+First five records:
+  show_id     type  ...  duration                                          listed_in
+0      s1    Movie  ...    90 min                                      Documentaries
+1      s3  TV Show  ...  1 Season  Crime TV Shows, International TV Shows, TV Act...
+2      s6  TV Show  ...  1 Season                 TV Dramas, TV Horror, TV Mysteries
+3     s14    Movie  ...    91 min                 Children & Family Movies, Comedies
+4      s8    Movie  ...   125 min   Dramas, Independent Movies, International Movies
+
+[5 rows x 10 columns]
+
+Yearly Content Counts:
+ Release_Year  Title_Count
+         2012          236
+         2013          286
+         2014          352
+         2015          555
+         2016          901
+         2017         1030
+         2018         1146
+         2019         1030
+         2020          953
+         2021          592
+
+Peak Release Year: 2018
+Number of Titles: 1146
+
+Yearly Content by Type:
+type          Movie  TV Show
+release_year                
+2012            173       63
+2013            225       61
+2014            264       88
+2015            396      159
+2016            658      243
+2017            765      265
+2018            767      379
+2019            633      397
+2020            517      436
+2021            277      315
+
+Project Summary:
+                         Metric  Value
+          Total Dataset Records   8790
+Records with Valid Release Year   8790
+          Earliest Release Year   1925
+            Latest Release Year   2021
+              Peak Release Year   2018
+            Titles in Peak Year   1146
+                   Total Movies   6126
+                 Total TV Shows   2664
+
+Analysis completed successfully!
+All charts and reports are saved in the outputs folder.
